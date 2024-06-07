@@ -1,0 +1,20 @@
+.contact {
+  display: grid;
+}
+.contact-text {
+  margin-top: 1%;
+}
+.main {
+  background-color: #222222;
+  color: azure;
+}
+#navbar {
+  display: flex;
+  height: 1%;
+}
+.nav-text {
+  margin-inline: 1%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  list-style-type: none;
+}
+
