@@ -10,7 +10,7 @@ export default function Home() {
                             STUDENT | PROGRAMMER | DESIGNER
                         </div>
                     </div>
-                        <div className='col-4'>
+                        <div className='col-4' id='home'>
                             <div className="home-sub">
                                 WHAT I DO
                             </div>
@@ -24,7 +24,7 @@ export default function Home() {
                         <div className='col-8'>
                         </div>
                 </div>
-        <div className="about-container">
+        <div className="about-container" id="about">
             <div className="row">
                 <div className="col-10">
                     <div className="row">
@@ -102,7 +102,7 @@ export default function Home() {
                 </div>
             </div>
         </div>
-        <div className="project-container">
+        <div className="project-container" id='projects'>
             <div className="row">
                 <div className="project-sub">
                     PROJECTS
@@ -133,7 +133,7 @@ export default function Home() {
                     <p>This project was created during my software engineering class with 5 other contributors. Built with Java, HTML/CSS/JS, Apache
                         and ANT.
                         The software features a GUI that managers,
-                        operators, providers, and members can all access and view their specified information. Managers can manager access, operators 
+                        operators, providers, and members can all access and view their specified information. Managers can manage access, operators 
                         can view members and their information, providers can add members, and members can view their bills and pay them.
                     </p>
                     <li><a href="https://github.com/aliburkemper12/Chocoholics-Anonymous.git" target="_blank">View Repo on GitHub</a></li>
@@ -142,17 +142,40 @@ export default function Home() {
             <div className="row">
                 <div className="col-4">
                     <p className="title">ATS</p>
-                    <p>A static website created for a client made with ReactJS, Node and HTML/CSS. Features self-made graphics and a slick design.
+                    <p>A static website created for a client made with ReactJS, Bootstrap and HTML/CSS. Features self-made graphics and a slick design.
                     </p>
                     <li><a href="https://github.com/aliburkemper12/ats.git" target="_blank">View Repo on GitHub</a></li>
                 </div>
                 <div className="col-4">
                     <p className="title">Personal Portfolio</p>
-                    <p>What you are looking at now! This website was made with ReactJS, Node, and HTML/CSS.</p>
+                    <p>What you are looking at now! This website was made with ReactJS, Bootstrap and HTML/CSS.</p>
                     <li><a href="https://github.com/aliburkemper12/personal-portfolio.git" target="_blank">View Repo on GitHub</a></li>
                 </div>
                 <div className="col-4">
                     <p className="title">Coming soon..</p>
+                </div>
+            </div>
+        </div>
+        <div className="contact-container" id='contact'>
+            <div className="row">
+                <div className="project-sub">
+                    CONTACT
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-3">
+                </div>
+                <div className="col-6">
+                    <div className="about-text">
+                        Need to contact me? You have options!
+                    </div>
+                    <div className="about-text">
+                    <p>Email: aliburkemper12@gmail.com</p>
+                    <p>Phone: 636-445-0732</p>
+                    <p>LinkedIn:</p>
+                    </div>
+                </div>
+                <div className="col-3">
                 </div>
             </div>
         </div>

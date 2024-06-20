@@ -47,6 +47,10 @@
 .contact {
   display: grid;
 }
+.contact-container > .row > .col-6 {
+  text-align: center;
+  margin-bottom: 5%;
+}
 .contact-text {
   margin-top: 1%;
 }
@@ -194,6 +198,7 @@
   text-decoration: none;
   transition-duration: .5s;
   border-bottom: 3px solid transparent;
+  color: rgb(82, 82, 82);
 }
 .nav-text:visited {
   color: rgb(82, 82, 82);
@@ -215,6 +220,7 @@ p {
 }
 .project-container {
   margin-top: 15%;
+  color: #1e2525d0;
 }
 .project-container > .row > .col-4 {
   text-align: center;
