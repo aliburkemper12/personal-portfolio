@@ -22,7 +22,7 @@ export default function Home() {
                                 </div>
                                 <div className="home-text">
                                     I am a student at the <b>University of Alabama majoring in Computer Science</b>. I have passions in <b>full-stack</b> software engineering
-                                    with an emphasis in Web Design. My goal in my career is to create innovative software that benefit both the consumer and the 
+                                    with an emphasis in designing clean UI/UX. My goal in my career is to create innovative software that benefit both the consumer and the 
                                     business by implementing <b>efficient backends</b> with beautiful, <b>easy to use frontends.</b> I am constantly seeking to push 
                                     myself closer to this goal; Currently I am learning the <b>MERN</b> tech stack, along with other notable frameworks.
                                 </div>
@@ -73,7 +73,7 @@ export default function Home() {
                         <div className='col-lg-8 col-12'>
                             <div className="about-text">
                                 <p><b>Languages:</b> C/C++, Python, JS/HTML/CSS</p>
-                                <p><b>Frameworks:</b> Flask, Bootstrap</p>
+                                <p><b>Frameworks:</b> Flask, Bootstrap, Node</p>
                                 <p><b>Libraries/Technologies:</b> React, Git, Matlab</p>
                                 <p><b>Databases:</b> SQLite, MySQL</p>
                             </div>
@@ -155,12 +155,12 @@ export default function Home() {
             <div className="row">
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/ats.git" target="_blank"><b>ATS<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <p>A static website created for a client made with ReactJS, Bootstrap and HTML/CSS. Features self-made graphics and a slick design.
+                    <p>A static website created for a client made with ReactJS, Node, Bootstrap and HTML/CSS. Features self-made graphics and a slick design.
                     </p>
                 </div>
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/personal-portfolio.git" target="_blank"><b>Personal Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <p>What you are looking at now! This website was made with ReactJS, Bootstrap and HTML/CSS.</p>
+                    <p>What you are looking at now! This website was made with ReactJS, Node, Bootstrap and HTML/CSS.</p>
                 </div>
                 <div className="col-lg-4">
                     <p className="title"><b>Coming soon..</b></p>

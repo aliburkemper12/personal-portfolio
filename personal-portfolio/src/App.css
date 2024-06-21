@@ -145,6 +145,7 @@
   background-color: #11a4a7;
   height: 95vh;
   margin-bottom: 10%;
+  border: 1.5rem solid #bbeced3f;
 }
 .home-sub {
   font-family: 'Oswald';
@@ -451,7 +452,7 @@ p {
     margin-top: 5%;
   }
   .header-sub {
-    font-size: 110px;
+    font-size: 100px;
     letter-spacing: -5px;
   }
   .home-sub-side {
