@@ -1,6 +1,6 @@
 export default function Navbar() {
     return (
-                <nav className="navbar">
+                <nav className="navbar sticky-top">
                     <div className="col-3 mx-4">
                         <div className="name">
                             <a className="nav-name">Ali Burkemper</a>

@@ -4,10 +4,10 @@
 .about-container {
   margin-top: 20%;
 }
-.about-container > .row > .col-10 > .row:hover {
+.about-container > .row > .col-lg-10 > .row:hover {
   box-shadow: 2px 2px 10px #11a4a7;
 }
-.about-container > .row > .col-10 > .row > .col-8 {
+.about-container > .row > .col-lg-10 > .row > .col-lg-8 {
   display: flex;
   align-items: center;
 }
@@ -20,11 +20,11 @@
 }
 .about-sub {
   font-family: 'Oswald';
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 600;
   color: #1e2525b9;
   margin-bottom: 10%;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   text-align: left;
   border-right: 2px solid #1e2525b9;
   margin-top: 10%;
@@ -40,6 +40,11 @@
   font-weight: 300;
   white-space: pre-line;
 }
+.block {
+  margin-top: 30%;
+  background-color: #11a4a7;
+  height: 200px;
+}
 .col-2 {
   background-color: #11a4a7;
   padding-bottom: 10%;
@@ -47,12 +52,27 @@
 .contact {
   display: grid;
 }
-.contact-container > .row > .col-6 {
+.contact-container {
+  padding-top: 50%;
+  margin-bottom: 40%;
+}
+.contact-container > .row > .col-lg-6 {
   text-align: center;
   margin-bottom: 5%;
+  background-color: white;
+  box-shadow: 1px 1px 10px #a9a9a9a7;
+  padding-bottom: 5%;
 }
 .contact-text {
-  margin-top: 1%;
+  margin-top: 5%;
+  font-family: 'Open Sans', normal;
+  font-weight: 100;
+  font-size: 20px;
+  color: #1e2525b9;
+}
+.contact-text > p {
+  margin-top: 5%;
+  font-weight: 100;
 }
 .container {
   text-align: center;
@@ -81,7 +101,7 @@
   transition-duration: .5s;
 }
 .fineprint > p:hover {
-  transform: scale(300%);
+  transform: scale(200%);
   background-color: white;
   color: #11a4a7;
 }
@@ -91,22 +111,22 @@
 }
 .header {
   font-family: 'Oswald';
-  font-size: 275px;
+  font-size: 80px;
   font-weight: 700;
   color: #dedede8e;
   margin: none;
-  margin-bottom: 2%;
-  margin-top: 2%;
+  margin-bottom: 40%;
+  margin-top: 30%;
   letter-spacing: -5px;
   transform: scale(1, 1.25);
 }
 .header-sub {
   font-family: 'Oswald';
-  font-size: 130px;
+  font-size: 30px;
   font-weight: 600;
   color: #1e4f5343;
   margin-bottom: 20%;
-  letter-spacing: -5px;
+  letter-spacing: -2px;
   transform: scale(1, 1.5);
   text-align: center;
 }
@@ -167,11 +187,15 @@
   font-weight: 400;
   min-height: 100vh;
   margin: none;
+  cursor: default;
 }
 .navbar {
   background-color: rgb(255, 255, 255);
   position: sticky;
+  width: 100%;
   top: 0;
+  z-index: 1;
+  left: 0;
   font-size: large;
   margin-bottom: none;
 }
@@ -184,7 +208,7 @@
 .nav-name {
   font-family: 'Oswald';
   font-weight: 300;
-  font-size: 20px;
+  font-size: 17px;
   text-decoration: none;
   float: left;
   padding-top: 1%;
@@ -215,19 +239,25 @@ p {
   vertical-align: middle;
 }
 .pic {
-  width: 500px;
-  height: 500px;
+  width: 35px;
+  height: 100%;
+  margin-inline: 2%;
+  margin-top: 2%;
+  transition-duration: .5s;
+}
+.pic:hover {
+  transform: translateY(-5px);
 }
 .project-container {
-  margin-top: 15%;
+  padding-top: 40%;
   color: #1e2525d0;
 }
-.project-container > .row > .col-4 {
+.project-container > .row > .col-lg-4 {
   text-align: center;
   font-size: larger;
   margin-bottom: 5%;
 }
-.project-container > .row > .col-4 > p {
+.project-container > .row > .col-lg-4 > p {
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -237,7 +267,7 @@ p {
 .project-sub {
   text-align: center;
   font-family: 'Oswald';
-  font-size: 100px;
+  font-size: 80px;
   font-weight: 600;
   color: #1e2525b9;
   margin-bottom: 5%;
@@ -248,5 +278,194 @@ p {
   font-family: 'Oswald';
   font-size: 35px;
   font-weight: 300;
+  color: #1e2525b9;
+  text-decoration: none;
+  transition-property: 1s;
+  display: inline-block;
+}
+.title:hover {
+  color: #11a4a7;
+  text-decoration: underline;
+}
+@media (min-width: 0px) {
+  .header {
+    margin-bottom: 8%;
+    font-size: 70px;
+  }
+  .nav-text {
+    font-size: 15px;
+  }
+}
+@media (min-width: 576px) {
+  .about-sub {
+    font-size: 80px;
+    letter-spacing: -5px;
+  }
+  .col-2 {
+    visibility: visible;
+  }
+  .contact-container {
+    padding-top: 30%;
+    margin-bottom: 15%;
+  }
+  .contact-text {
+    font-size: 30px;
+  }
+  .fineprint > p:hover {
+    transform: scale(300%);
+    background-color: white;
+    color: #11a4a7;
+  }
+  .header {
+    font-size: 130px;
+    margin-bottom: 10%;
+    margin-top: 15%;
+  }
+  .header-sub {
+    font-size: 50px;
+    letter-spacing: -3px;
+  }
+  .home-sub-side {
+    visibility: visible;
+  }
+  .nav-name {
+    font-size: 20px;
+  }
+  .project-container {
+    padding-top: 35%;
+  }
+  .project-sub {
+    font-size: 100px;
+  }
+}
+@media (min-width: 768px) {
+  .about-sub {
+    font-size: 80px;
+    letter-spacing: -5px;
+  }
+  .col-2 {
+    visibility: visible;
+  }
+  .contact-container {
+    padding-top: 30%;
+    margin-bottom: 15%;
+  }
+  .contact-text {
+    font-size: 30px;
+  }
+  .fineprint > p:hover {
+    transform: scale(300%);
+    background-color: white;
+    color: #11a4a7;
+  }
+  .header {
+    font-size: 150px;
+    margin-bottom: 5%;
+    margin-top: 12%;
+  }
+  .header-sub {
+    font-size: 50px;
+    letter-spacing: -3px;
+  }
+  .home-sub-side {
+    visibility: visible;
+  }
+  .nav-name {
+    font-size: 20px;
+  }
+  .project-container {
+    padding-top: 30%;
+  }
+  .project-sub {
+    font-size: 100px;
+  }
+}
+@media (min-width: 992px) {
+  .about-sub {
+    font-size: 80px;
+    letter-spacing: -5px;
+  }
+  .about-text {
+    font-size: 22px;
+  }
+  .col-2 {
+    visibility: visible;
+  }
+  .contact-container {
+    padding-top: 10%;
+    margin-bottom: 5%;
+  }
+  .contact-text {
+    font-size: 30px;
+  }
+  .fineprint > p:hover {
+    transform: scale(300%);
+    background-color: white;
+    color: #11a4a7;
+  }
+  .header {
+    font-size: 205px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+  }
+  .header-sub {
+    font-size: 100px;
+    letter-spacing: -5px;
+  }
+  .home-sub-side {
+    visibility: visible;
+  }
+  .nav-name {
+    font-size: 20px;
+  }
+  .project-container {
+    padding-top: 5%;
+  }
+  .project-sub {
+    font-size: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-sub {
+    font-size: 65px;
+    letter-spacing: -5px;
+  }
+  .col-2 {
+    visibility: visible;
+  }
+  .contact-container {
+    padding-top: 10%;
+    margin-bottom: 5%;
+  }
+  .contact-text {
+    font-size: 30px;
+  }
+  .fineprint > p:hover {
+    transform: scale(300%);
+    background-color: white;
+    color: #11a4a7;
+  }
+  .header {
+    font-size: 225px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+  }
+  .header-sub {
+    font-size: 110px;
+    letter-spacing: -5px;
+  }
+  .home-sub-side {
+    visibility: visible;
+    font-size: 150px;
+  }
+  .nav-name {
+    font-size: 20px;
+  }
+  .project-container {
+    padding-top: 5%;
+  }
+  .project-sub {
+    font-size: 100px;
+  }
 }
 
