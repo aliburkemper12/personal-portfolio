@@ -2,6 +2,7 @@ import linkedin from '../img/linkedin.png'
 import github from '../img/github.png'
 import link from '../img/link.png'
 import { Fade } from "react-awesome-reveal";
+import headshot from "../img/headshot_transparent.png"
 
 export default function Home() {
     return (
@@ -29,6 +30,7 @@ export default function Home() {
                             </div>
                         </Fade>
                         <div className='col-lg-8'>
+                            <img src={headshot} alt="headshot"></img>
                         </div>
                 </div>
         <div className="about-container" id="about">
