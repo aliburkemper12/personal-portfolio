@@ -16,22 +16,24 @@ export default function Home() {
                             STUDENT | PROGRAMMER | DESIGNER
                         </div>
                     </div>
+                </div>
+                <div className="row">
+                    <div className='col-lg-4 py-5' id='home'>
                         <Fade>
-                            <div className='col-lg-4 py-5' id='home'>
-                                <div className="home-sub">
-                                    WHAT I DO
-                                </div>
-                                <div className="home-text">
-                                    I am a student at the <b>University of Alabama majoring in Computer Science</b>. I have passions in <b>full-stack</b> software engineering
-                                    with an emphasis in designing clean UI/UX. My goal in my career is to create innovative software that benefit both the consumer and the 
-                                    business by implementing <b>efficient backends</b> with beautiful, <b>easy to use frontends.</b> I am constantly seeking to push 
-                                    myself closer to this goal; Currently I am learning the <b>MERN</b> tech stack, along with other notable frameworks.
-                                </div>
+                            <div className="home-sub">
+                                WHAT I DO
+                            </div>
+                            <div className="home-text">
+                                I am a student at the <b>University of Alabama majoring in Computer Science</b>. I have passions in <b>full-stack</b> software engineering
+                                with an emphasis in designing clean UI/UX. My goal in my career is to create innovative software that benefit both the consumer and the 
+                                business by implementing <b>efficient backends</b> with beautiful, <b>easy to use frontends.</b> I am constantly seeking to push 
+                                myself closer to this goal; Currently I am learning the <b>MERN</b> tech stack, along with other notable frameworks.
                             </div>
                         </Fade>
-                        <div className='col-lg-8'>
-                            <img src={headshot} alt="headshot"></img>
-                        </div>
+                    </div>
+                    <div className='col-lg-8 col-12'>
+                        <img src={ headshot } className="headshot" alt="headshot"/>
+                    </div>
                 </div>
         <div className="about-container" id="about">
             <div className="row">

@@ -130,6 +130,14 @@
   transform: scale(1, 1.5);
   text-align: center;
 }
+.headshot {
+  width: 50%;
+  height: auto;
+  margin: none;
+  padding: none;
+  margin-left: 25%;
+  margin-top: -5%;
+}
 .home-body {
   text-align: center;
   background-color: #fafafa;
@@ -293,6 +301,14 @@ p {
     margin-bottom: 8%;
     font-size: 70px;
   }
+  .headshot {
+    width: 70%;
+    height: auto;
+    margin: none;
+    padding: none;
+    margin-left: 15%;
+    margin-top: -5%;
+  }
   .nav-text {
     font-size: 15px;
   }
@@ -412,6 +428,14 @@ p {
   .header-sub {
     font-size: 100px;
     letter-spacing: -5px;
+  }
+  .headshot {
+    width: 50%;
+    height: auto;
+    margin: none;
+    padding: none;
+    margin-left: 25%;
+    margin-top: -5%;
   }
   .home-sub-side {
     visibility: visible;
