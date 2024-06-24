@@ -61,7 +61,7 @@ This project is hosted with Netlify.
 <!-- CONTACT -->
 ## Contact
 
-Your Name  - aliburkemper12@gmail.com
+Ali Burkemper - aliburkemper12@gmail.com
 
 Project Link: [https://github.com/aliburkemper12/personal-portfolio](https://github.com/aliburkemper12/personal-portfolio)
 
