@@ -298,13 +298,29 @@ p {
 }
 @media (min-width: 0px) {
   .header {
-    margin-bottom: 8%;
+    font-family: 'Oswald';
     font-size: 70px;
+    font-weight: 700;
+    color: #dedede8e;
+    margin: none;
+    margin-bottom: 10%;
+    margin-top: 35%;
+    letter-spacing: -5px;
+    transform: scale(1, 1.25);
+  }
+  .header-sub {
+    font-family: 'Oswald';
+    font-size: 25px;
+    font-weight: 600;
+    color: #1e4f5343;
+    margin-bottom: 20%;
+    letter-spacing: -2px;
+    transform: scale(1, 1.5);
+    text-align: center;
   }
   .headshot {
-    width: 80%;
+    width: 70%;
     height: auto;
-    margin: none;
     padding: none;
     margin-left: 15%;
     margin-top: -5%;
