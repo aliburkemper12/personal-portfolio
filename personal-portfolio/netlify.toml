@@ -1,4 +1,4 @@
 [build]
   command = "npm run build"
-  publish = "personal-portfolio/personal-portfolio/build"
-  base = "personal-portfolio/personal-portfolio"
+  publish = "portfolio/personal-portfolio/personal-portfolio/build"
+  base = "portfolio/personal-portfolio/personal-portfolio"

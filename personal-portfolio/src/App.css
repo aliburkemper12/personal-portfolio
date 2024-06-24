@@ -342,6 +342,14 @@ p {
     font-size: 50px;
     letter-spacing: -3px;
   }
+  .headshot {
+    width: 70%;
+    height: auto;
+    margin: none;
+    padding: none;
+    margin-left: 15%;
+    margin-top: -5%;
+  }
   .home-sub-side {
     visibility: visible;
   }
@@ -383,6 +391,14 @@ p {
   .header-sub {
     font-size: 50px;
     letter-spacing: -3px;
+  }
+  .headshot {
+    width: 70%;
+    height: auto;
+    margin: none;
+    padding: none;
+    margin-left: 25%;
+    margin-top: -5%;
   }
   .home-sub-side {
     visibility: visible;
@@ -430,7 +446,7 @@ p {
     letter-spacing: -5px;
   }
   .headshot {
-    width: 50%;
+    width: 70%;
     height: auto;
     margin: none;
     padding: none;
@@ -478,6 +494,14 @@ p {
   .header-sub {
     font-size: 100px;
     letter-spacing: -5px;
+  }
+  .headshot {
+    width: 70%;
+    height: auto;
+    margin: none;
+    padding: none;
+    margin-left: 25%;
+    margin-top: -5%;
   }
   .home-sub-side {
     visibility: visible;
