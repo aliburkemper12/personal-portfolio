@@ -111,7 +111,7 @@
 }
 .header {
   font-family: 'Oswald';
-  font-size: 80px;
+  font-size: 60px;
   font-weight: 700;
   color: #dedede8e;
   letter-spacing: -5px;
@@ -299,7 +299,7 @@ p {
 @media (min-width: 0px) {
   .header {
     font-family: 'Oswald';
-    font-size: 70px;
+    font-size: 60px;
     font-weight: 700;
     color: #dedede8e;
     letter-spacing: -5px;
