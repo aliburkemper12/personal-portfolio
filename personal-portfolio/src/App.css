@@ -114,21 +114,16 @@
   font-size: 80px;
   font-weight: 700;
   color: #dedede8e;
-  margin: none;
-  margin-bottom: 40%;
-  margin-top: 30%;
   letter-spacing: -5px;
-  transform: scale(1, 1.25);
 }
 .header-sub {
   font-family: 'Oswald';
   font-size: 30px;
   font-weight: 600;
   color: #1e4f5343;
-  margin-bottom: 20%;
   letter-spacing: -2px;
-  transform: scale(1, 1.5);
   text-align: center;
+  margin-bottom:7%;
 }
 .headshot {
   width: 50%;
@@ -152,8 +147,9 @@
   margin: none;
   background-color: #11a4a7;
   height: 95vh;
-  margin-bottom: 10%;
   border: 1.5rem solid #bbeced3f;
+  display: flex;
+  align-items: center;
 }
 .home-sub {
   font-family: 'Oswald';
@@ -189,6 +185,10 @@
   font-size: 25px;
   font-weight: 300;
   white-space: pre-line;
+}
+.inner {
+  overflow: 0 auto;
+  width: 100vw;
 }
 .main {
   background-color: #ffffff;
@@ -302,9 +302,6 @@ p {
     font-size: 70px;
     font-weight: 700;
     color: #dedede8e;
-    margin: none;
-    margin-bottom: 10%;
-    margin-top: 35%;
     letter-spacing: -5px;
     transform: scale(1, 1.25);
   }
@@ -313,9 +310,7 @@ p {
     font-size: 25px;
     font-weight: 600;
     color: #1e4f5343;
-    margin-bottom: 20%;
     letter-spacing: -2px;
-    transform: scale(1, 1.5);
     text-align: center;
   }
   .headshot {
@@ -351,8 +346,6 @@ p {
   }
   .header {
     font-size: 130px;
-    margin-bottom: 10%;
-    margin-top: 15%;
   }
   .header-sub {
     font-size: 50px;
@@ -401,8 +394,6 @@ p {
   }
   .header {
     font-size: 150px;
-    margin-bottom: 5%;
-    margin-top: 12%;
   }
   .header-sub {
     font-size: 50px;
@@ -454,8 +445,6 @@ p {
   }
   .header {
     font-size: 205px;
-    margin-bottom: 2%;
-    margin-top: 2%;
   }
   .header-sub {
     font-size: 100px;
@@ -504,8 +493,6 @@ p {
   }
   .header {
     font-size: 225px;
-    margin-bottom: 2%;
-    margin-top: 5%;
   }
   .header-sub {
     font-size: 100px;

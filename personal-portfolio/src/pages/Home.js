@@ -9,11 +9,13 @@ export default function Home() {
         <div className="container-fluid">
                 <div className='row'>
                     <div className='home-container'>
-                        <div className='header'>
-                            ALI BURKEMPER
-                        </div>
-                        <div className='header-sub'>
-                            STUDENT | PROGRAMMER | DESIGNER
+                        <div className="inner">
+                            <div className='header'>
+                                ALI BURKEMPER
+                            </div>
+                            <div className='header-sub'>
+                                STUDENT | PROGRAMMER | DESIGNER
+                            </div>
                         </div>
                     </div>
                 </div>
