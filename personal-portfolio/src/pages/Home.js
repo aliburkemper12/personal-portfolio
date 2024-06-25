@@ -3,6 +3,8 @@ import github from '../img/github.png'
 import link from '../img/link.png'
 import { Fade } from "react-awesome-reveal";
 import headshot from "../img/headshot_transparent.png"
+import timecheck from "../img/timecheck.png"
+import inventory from "../img/home_snip.png"
 
 export default function Home() {
     return (
@@ -129,6 +131,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/time-checker-repo.git" target="_blank"><b>Time Check<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <img src={ timecheck } alt="timecheck" className="preview"></img>
                     <p>Created with Python, Flask, Ajax, HTML/CSS and JavaScript. Time Checker is a web app that reports the amount of time left until the next break in the work day. It also displays the
                         percentage the user is currently through their work day. This was created
                         during my Piston Internship for employees to monitor. There are three shifts, and every shift has two breaks. The user can choose to see a particular
@@ -137,6 +140,7 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/inventory-system-piston.git" target="_blank"><b>Inventory System<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <img src={ inventory } alt="inventory" className="preview"></img>
                     <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created for the IT
                         department at Piston Automotive during my internship to keep track of important inventory such as 
                         production labels and ribbon. The software features a login and admin login with hashed/salted passwords.
