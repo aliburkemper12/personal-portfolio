@@ -83,7 +83,7 @@ export default function Home() {
                                 <p><b>Languages:</b> C/C++, Python, JS/HTML/CSS</p>
                                 <p><b>Frameworks:</b> Flask, Bootstrap, Node</p>
                                 <p><b>Libraries/Technologies:</b> React, Git, Matlab</p>
-                                <p><b>Databases:</b> SQLite, MySQL</p>
+                                <p><b>Databases:</b> SQLite, Microsoft SQL server</p>
                             </div>
                         </div>
                     </div>
