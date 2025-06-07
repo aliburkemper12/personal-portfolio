@@ -2,3 +2,6 @@
   command = "npm run build"
   publish = "personal-portfolio/build"
   base = "personal-portfolio"
+
+[build.environment]
+  CI = "false"
