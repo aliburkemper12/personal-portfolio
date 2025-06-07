@@ -5,6 +5,7 @@ import { Fade } from "react-awesome-reveal";
 import headshot from "../img/headshot_transparent.png"
 import timecheck from "../img/timecheck.png"
 import inventory from "../img/home_snip.png"
+import jtportfolio from "../img/jt-portfolio.png"
 
 export default function Home() {
     return (
@@ -24,7 +25,7 @@ export default function Home() {
                 <div className="row">
                     <div className='col-lg-4 py-5' id='home'>
                         <Fade>
-                            <div className='col-lg-4 py-5' id='home'>
+                            <div className='col-lg-12 py-5' id='home'>
                                 <div className="home-sub">
                                     WHAT I DO
                                 </div>
@@ -176,6 +177,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-lg-4">
                     <p><a className="title" href="https://jashawntaylor.com" target="_blank"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <img src={ jtportfolio } alt="jt-portfolio" className="preview"></img>
                     <p>A portfolio website created for a client for his basketball recruitement. Created using WordPress. Learned how to embed youtube links using WordPress' plugins. Created a visually appealing color scheme that flows through the page. 
                     </p>
                 </div>
