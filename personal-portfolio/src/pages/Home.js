@@ -22,10 +22,8 @@ export default function Home() {
                                     WHAT I DO
                                 </div>
                                 <div className="home-text">
-                                    I am a student at the <b>University of Alabama majoring in Computer Science</b>. I have passions in <b>full-stack</b> software engineering
-                                    with an emphasis in designing clean UI/UX. My goal in my career is to create innovative software that benefit both the consumer and the 
-                                    business by implementing <b>efficient backends</b> with beautiful, <b>easy to use frontends.</b> I am constantly seeking to push 
-                                    myself closer to this goal; Currently I am learning the <b>MERN</b> tech stack, along with other notable frameworks.
+                                    I am a student at the <b>University of Alabama majoring in Computer Science</b>. As I work towards finishing my <b>undergrad,</b> I am becoming more and more interested in <b>data and project management.</b>
+                                    While still figuring out my path, I am continuing to learn <b>front-end skill</b> on my own time while diving into <b>back-end and data skills</b> in my studies.
                                 </div>
                             </div>
                         </Fade>
@@ -44,10 +42,10 @@ export default function Home() {
                         </div>
                         <div className='col-lg-8 col-12'>
                             <div className="about-text">
-                                <p><b>University of Alabama:</b> BS in Computer Science - DEC 2025</p>
+                                <p><b>University of Alabama:</b> BS in Computer Science - MAY 2026</p>
                                 <p><b>*UA Competitive Acheivement Scholarship:</b> Full Tuition</p>
-                                <p><b>*GPA:</b> 3.615</p>
-                                <p><b>*Classes:</b> Discrete Mathematics, DSA, Microcomputers, Operating Systems, Database Management Systems</p>
+                                <p><b>*GPA:</b> 3.642</p>
+                                <p><b>*Classes:</b> Discrete Mathematics, DSA, Microcomputers, Operating Systems, Database Management Systems, Data Science, Computer Algorithms, Programming Languages, Linear Algebra</p>
                             </div>
                         </div>
                     </div>
@@ -59,9 +57,21 @@ export default function Home() {
                         </div>
                         <div className='col-lg-8 col-12'>
                             <div className="about-text">
-                                <p><b>IT Intern:</b> Piston Automotive - Summer 2024</p>
-                                <p>On call support for production line printers and work stations. Maintained network connections and monitored
-                                    database in SQL. Used queries to modify part attributes. Built multiple software programs, including Time Checker and the IT Inventory system.
+                                <p><b>IT Analyst Intern:</b> Piston Automotive - Summer 2024</p>
+                                <p>Collaborated with production and IT teams to support production systems and troubleshoot IT issues across both office and manufacturing environments.
+                                    Gained hands-on experience with production SQL databases.
+                                    Worked on various projects, including inventory system and a shift web page that can be found below.
+                                    Partnered with process engineers to implement real-time dashboards driving visibility into key performance metrics.
+                                    Contributed to UI/UX improvements on shop-floor workstations, enhancing usability and efficiency for production operators.
+                                </p>
+                            </div>
+                            <div className="about-text">
+                                <p><b>Business Process Analyst Intern:</b> Centene Corporation - Summer 2025</p>
+                                <p>
+                                    Conducting interviews with key stakeholders to understand current workflows, pain points, and improvement opportunities.
+                                    Designing a comprehensive process map that outlines the full claims lifecycle, from initiation to resolution.
+                                    Delivering insights to leadership and project teams to inform decision-making and strategy development.
+                                    Supporting ongoing efforts to streamline operations, enhance efficiency, and align initiatives with business goals
                                 </p>
                             </div>
                         </div>
@@ -74,10 +84,10 @@ export default function Home() {
                         </div>
                         <div className='col-lg-8 col-12'>
                             <div className="about-text">
-                                <p><b>Languages:</b> C/C++, Python, JS/HTML/CSS</p>
+                                <p><b>Languages:</b> C/C++, Python, JS/HTML/CSS, Scheme, Prolog</p>
                                 <p><b>Frameworks:</b> Flask, Bootstrap, Node</p>
                                 <p><b>Libraries/Technologies:</b> React, Git, Matlab</p>
-                                <p><b>Databases:</b> SQLite, MySQL</p>
+                                <p><b>Databases:</b> Microsft SQL, Oracle, MongoDB</p>
                             </div>
                         </div>
                     </div>
@@ -91,14 +101,13 @@ export default function Home() {
                             <div className="about-text">
                                 <p><b>National Indigenous Recognition Scholar:</b> 2021</p>
                                 <p><b>Presidents List:</b> Fall 2022</p>
-                                <p><b>Deans List:</b> Fall 2023, Spring 2024</p>
+                                <p><b>Deans List:</b> Fall 2023, Spring 2024, Fall 2024, Spring 2025</p>
                             </div>
                         </div>
                     </div>
                         <div className="col-lg-10">
                             <div className="fineprint">
                                 THE FINEPRINT: 
-                                <p>Automotive Enthusiast</p>
                                 <p>Athlete</p>
                                 <p>Gamer</p>
                                 <p>Artist</p>
@@ -133,8 +142,8 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/inventory-system-piston.git" target="_blank"><b>Inventory System<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created for the IT
-                        department at Piston Automotive during my internship to keep track of important inventory such as 
+                    <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created as a project
+                        at Piston Automotive during my internship to keep track of important inventory such as 
                         production labels and ribbon. The software features a login and admin login with hashed/salted passwords.
                         Pictures of each of the views can be found at the github repo. User's can access the full database which displays items and all their
                         attributes. Users can add, edit, and delete items. Admin's can create and delete user's account. Features searching, sorting, 
@@ -156,8 +165,8 @@ export default function Home() {
             </div>
             <div className="row">
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://github.com/aliburkemper12/ats.git" target="_blank"><b>ATS<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <p>A static website created for a client made with ReactJS, Node, Bootstrap and HTML/CSS. Features self-made graphics and a slick design.
+                    <p><a className="title" href="https://jashawntaylor.com" target="_blank"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p>A portfolio website created for a client for his basketball recruitement. Created using WordPress. Learned how to embed youtube links using WordPress' plugins. Created a visually appealing color scheme that flows through the page. 
                     </p>
                 </div>
                 <div className="col-lg-4">
