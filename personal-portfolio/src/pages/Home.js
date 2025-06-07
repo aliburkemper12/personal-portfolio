@@ -142,7 +142,7 @@ export default function Home() {
             </div>
             <div className="row">
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://github.com/aliburkemper12/time-checker-repo.git" target="_blank"><b>Time Check<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p><a className="title" href="https://github.com/aliburkemper12/time-checker-repo.git" target="_blank" rel="noreferrer"><b>Time Check<img className='pic' src={link} alt="link"></img></b></a></p>
                     <img src={ timecheck } alt="timecheck" className="preview"></img>
                     <p>Created with Python, Flask, Ajax, HTML/CSS and JavaScript. Time Checker is a web app that reports the amount of time left until the next break in the work day. It also displays the
                         percentage the user is currently through their work day. This was created
@@ -151,7 +151,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://github.com/aliburkemper12/inventory-system-piston.git" target="_blank"><b>Inventory System<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p><a className="title" href="https://github.com/aliburkemper12/inventory-system-piston.git" target="_blank" rel="noreferrer"><b>Inventory System<img className='pic' src={link} alt="link"></img></b></a></p>
                     <img src={ inventory } alt="inventory" className="preview"></img>
                     <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created for the IT
                         department at Piston Automotive during my internship to keep track of important inventory such as 
@@ -162,7 +162,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://jashawntaylor.com" target="_blank"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p><a className="title" href="https://jashawntaylor.com" target="_blank" rel="noreferrer"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
                     <img src={ jtportfolio } alt="jt-portfolio" className="preview"></img>
                     <p>A portfolio website created for a client for his basketball recruitement. Created using WordPress. Learned how to embed youtube links using WordPress' plugins. Created a visually appealing color scheme that flows through the page. 
                     </p>
@@ -170,7 +170,7 @@ export default function Home() {
             </div>
             <div className="row">
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://github.com/aliburkemper12/Chocoholics-Anonymous.git" target="_blank"><b>Chocoholics Anonymous<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p><a className="title" href="https://github.com/aliburkemper12/Chocoholics-Anonymous.git" target="_blank" rel="noreferrer"><b>Chocoholics Anonymous<img className='pic' src={link} alt="link"></img></b></a></p>
                     <p>This project was created during my software engineering class with 5 other contributors. The goal of this project was to build 
                         a system for a hypothetical company and practice backend development.
                         Built with Java, HTML/CSS/JS, Apache
@@ -182,7 +182,7 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="col-lg-4">
-                    <p><a className="title" href="https://github.com/aliburkemper12/personal-portfolio.git" target="_blank"><b>Personal Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <p><a className="title" href="https://github.com/aliburkemper12/personal-portfolio.git" target="_blank" rel="noreferrer"><b>Personal Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
                     <p>What you are looking at now! This website was made with ReactJS, Node, Bootstrap and HTML/CSS.</p>
                 </div>
                 <div className="col-lg-4">
@@ -211,8 +211,8 @@ export default function Home() {
                     <div className="contact-text">
                         <p><b>Email:</b> aliburkemper12@gmail.com</p>
                         <p><b>Phone:</b> 636-445-0732</p>
-                        <a href='https://linkedin.com/in/ali-burkemper-aa53b0256' target='_blank'><img className="pic" src={linkedin} alt="linkedin"></img></a>
-                        <a href='https://github.com/aliburkemper12' target='_blank'><img className="pic" src={github} alt="github"></img></a>
+                        <a href='https://linkedin.com/in/ali-burkemper-aa53b0256' target='_blank' rel="noreferrer"><img className="pic" src={linkedin} alt="linkedin"></img></a>
+                        <a href='https://github.com/aliburkemper12' target='_blank' rel="noreferrer"><img className="pic" src={github} alt="github"></img></a>
                     </div>
                 </div>
                 <div className="col-lg-3 col-1">
