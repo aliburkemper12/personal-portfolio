@@ -162,6 +162,14 @@ export default function Home() {
                     </p>
                 </div>
                 <div className="col-lg-4">
+                    <p><a className="title" href="https://jashawntaylor.com" target="_blank"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <img src={ jtportfolio } alt="jt-portfolio" className="preview"></img>
+                    <p>A portfolio website created for a client for his basketball recruitement. Created using WordPress. Learned how to embed youtube links using WordPress' plugins. Created a visually appealing color scheme that flows through the page. 
+                    </p>
+                </div>
+            </div>
+            <div className="row">
+                <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/Chocoholics-Anonymous.git" target="_blank"><b>Chocoholics Anonymous<img className='pic' src={link} alt="link"></img></b></a></p>
                     <p>This project was created during my software engineering class with 5 other contributors. The goal of this project was to build 
                         a system for a hypothetical company and practice backend development.
@@ -171,14 +179,6 @@ export default function Home() {
                         operators, providers, and members can all access and view their specified information. Managers can manage access, operators 
                         can view members and their information, providers can add members, and members can view their bills and pay them. Utilizes data structures
                         to store data.
-                    </p>
-                </div>
-            </div>
-            <div className="row">
-                <div className="col-lg-4">
-                    <p><a className="title" href="https://jashawntaylor.com" target="_blank"><b>JT Portfolio<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <img src={ jtportfolio } alt="jt-portfolio" className="preview"></img>
-                    <p>A portfolio website created for a client for his basketball recruitement. Created using WordPress. Learned how to embed youtube links using WordPress' plugins. Created a visually appealing color scheme that flows through the page. 
                     </p>
                 </div>
                 <div className="col-lg-4">

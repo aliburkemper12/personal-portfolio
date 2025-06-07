@@ -7,6 +7,9 @@
 .about-container > .row > .col-lg-10 > .row:hover {
   box-shadow: 2px 2px 10px #11a4a7;
 }
+.about-container > .row > .col-lg-10 > .row:hover > .col-lg-4 > .about-sub {
+  color: #11a4a7;
+}
 .about-container > .row > .col-lg-10 > .row > .col-lg-8 {
   display: flex;
   align-items: center;
