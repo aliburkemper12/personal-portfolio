@@ -3,19 +3,26 @@ import github from '../img/github.png'
 import link from '../img/link.png'
 import { Fade } from "react-awesome-reveal";
 import headshot from "../img/headshot_transparent.png"
+import timecheck from "../img/timecheck.png"
+import inventory from "../img/home_snip.png"
 
 export default function Home() {
     return (
         <div className="container-fluid">
                 <div className='row'>
                     <div className='home-container'>
-                        <div className='header'>
-                            ALI BURKEMPER
-                        </div>
-                        <div className='header-sub'>
-                            STUDENT | PROGRAMMER | DESIGNER
+                        <div className="inner">
+                            <div className='header'>
+                                ALI BURKEMPER
+                            </div>
+                            <div className='header-sub'>
+                                STUDENT | PROGRAMMER | DESIGNER
+                            </div>
                         </div>
                     </div>
+                </div>
+                <div className="row">
+                    <div className='col-lg-4 py-5' id='home'>
                         <Fade>
                             <div className='col-lg-4 py-5' id='home'>
                                 <div className="home-sub">
@@ -27,9 +34,10 @@ export default function Home() {
                                 </div>
                             </div>
                         </Fade>
-                        <div className='col-lg-8'>
-                            <img src={headshot} alt="headshot"></img>
-                        </div>
+                    </div>
+                    <div className='col-lg-8 col-12'>
+                        <img src={ headshot } className="headshot" alt="headshot"/>
+                    </div>
                 </div>
         <div className="about-container" id="about">
             <div className="row">
@@ -134,6 +142,7 @@ export default function Home() {
             <div className="row">
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/time-checker-repo.git" target="_blank"><b>Time Check<img className='pic' src={link} alt="link"></img></b></a></p>
+                    <img src={ timecheck } alt="timecheck" className="preview"></img>
                     <p>Created with Python, Flask, Ajax, HTML/CSS and JavaScript. Time Checker is a web app that reports the amount of time left until the next break in the work day. It also displays the
                         percentage the user is currently through their work day. This was created
                         during my Piston Internship for employees to monitor. There are three shifts, and every shift has two breaks. The user can choose to see a particular
@@ -142,8 +151,9 @@ export default function Home() {
                 </div>
                 <div className="col-lg-4">
                     <p><a className="title" href="https://github.com/aliburkemper12/inventory-system-piston.git" target="_blank"><b>Inventory System<img className='pic' src={link} alt="link"></img></b></a></p>
-                    <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created as a project
-                        at Piston Automotive during my internship to keep track of important inventory such as 
+                    <img src={ inventory } alt="inventory" className="preview"></img>
+                    <p>Created with Python, Flask, Ajax, SQLite/SQLAlchemy, HTML/CSS/JS, and Werkzeug.security. This inventory system was created for the IT
+                        department at Piston Automotive during my internship to keep track of important inventory such as 
                         production labels and ribbon. The software features a login and admin login with hashed/salted passwords.
                         Pictures of each of the views can be found at the github repo. User's can access the full database which displays items and all their
                         attributes. Users can add, edit, and delete items. Admin's can create and delete user's account. Features searching, sorting, 
