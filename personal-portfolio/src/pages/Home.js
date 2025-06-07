@@ -71,15 +71,11 @@ export default function Home() {
                                     Gained hands-on experience with production SQL databases.
                                     Worked on various projects, including inventory system and a shift web page that can be found below.
                                     Partnered with process engineers to implement real-time dashboards driving visibility into key performance metrics.
-                                    Contributed to UI/UX improvements on shop-floor workstations, enhancing usability and efficiency for production operators.
                                 </p>
-                            </div>
-                            <div className="about-text">
                                 <p><b>Business Process Analyst Intern:</b> Centene Corporation - Summer 2025</p>
                                 <p>
                                     Conducting interviews with key stakeholders to understand current workflows, pain points, and improvement opportunities.
                                     Designing a comprehensive process map that outlines the full claims lifecycle, from initiation to resolution.
-                                    Delivering insights to leadership and project teams to inform decision-making and strategy development.
                                     Supporting ongoing efforts to streamline operations, enhance efficiency, and align initiatives with business goals
                                 </p>
                             </div>
