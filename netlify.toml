@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = "personal-portfolio/build"
+  publish = "build"
   base = "personal-portfolio"
 
 [build.environment]
